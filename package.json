@@ -1,0 +1,16 @@
+{
+	"name": "confluence-mcp",
+	"version": "1.0.0",
+	"description": "MCP server connecting GitHub Copilot to Confluence Cloud",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+		"auth": "node auth.js",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "1.29.0",
+		"dotenv": "^16.5.0",
+		"open": "^10.1.0"
+	}
+}

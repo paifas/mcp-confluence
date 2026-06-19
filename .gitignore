@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Local environment — copy .env.example and fill in your credentials
+.env
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/settings.json
+.idea/
+.github
